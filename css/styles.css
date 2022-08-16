@@ -1,4 +1,15 @@
-@import "main.css";
-h2 {
-    color: blue;
+:root {
+    --primary-logo-color: #000000;
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+    --address-color: rgba(255, 255, 255, 0.6);
+    --primary-bgheader-color: #FFFFFF;
+    --primary-bghero-color: #2f303a;
+    --primary-bgfeatures-color: #f5f5f5;
+    --primary-bgsection-color:#f5f4fa;
+}
+
+.hero: {
+    background-color: var(--primary-bghero-color);
 }

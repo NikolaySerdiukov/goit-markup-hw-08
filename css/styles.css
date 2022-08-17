@@ -149,7 +149,7 @@ text-transform: uppercase;
     text-decoration: none;
 }
 .address-mail,
-.addres-tel{
+.address-tel{
     color: var(--address-color);
     font-weight: 400;
     font-style: normal;
@@ -159,6 +159,15 @@ text-transform: uppercase;
     line-height: 1.71;
     text-decoration: none;
 }
+.address-map:hover,
+.address-map:active,
+.address-mail:hover,
+.address-mail:active,
+.address-tel:hover,
+.address-tel:active{
+color:var(--accent-color);
+}
+
                     /* Portfolio page*/
 /* Filter */
 .main .portfolio{

@@ -31,6 +31,24 @@ ul{
     color: var(--accent-color)
 }
 /* Header */
+.conteiner{
+    display: flex;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px tomato;
+}
+.site-nav {
+    display: flex;
+}
+.site-nav .item + .item {
+    margin-left: 50px;
+}
+.site-nav .link{
+    display: block;
+}
 .logo{
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -49,10 +67,20 @@ ul{
 }
 
 .list .link{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+}
+
+.auth-nav {
+    display: flex;
+}
+.auth-nav .item + .item {
+    margin-left: 50px;
 }
 
 .telephone,

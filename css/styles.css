@@ -146,9 +146,7 @@ border-radius: 4px;
     margin-top: 94px;
     margin-bottom: 94px;
 }
-.benefits{
-    background-color: var(--primary-bgfeatures-color);
-}
+
 .benefits-conteiner .list{
     display: flex;
     gap: 30px;
@@ -165,6 +163,10 @@ border-radius: 4px;
     line-height: 1.71;
 }
 
+.features-conteiner .features-list{
+    display: flex;
+    gap: 30px;
+}
 .features-title{
     font-weight: 700;
     font-size: 36px;

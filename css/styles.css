@@ -6,7 +6,7 @@
     --address-color: rgba(255, 255, 255, 0.6);
     --primary-bgheader-color: #FFFFFF;
     --primary-bghero-color: #2f303a;
-    --color-border: #eeeeee
+    --color-border: #eeeeee;
     --primary-bgfeatures-color: #f5f5f5;
     --primary-bgsection-color:#f5f4fa;
 }
@@ -293,7 +293,6 @@ color:var(--accent-color);
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 30px;
 }
 .filter-btn:hover,
@@ -317,7 +316,11 @@ color:var(--accent-color);
     margin: 20px 24px 54px;
 }
 .portfolio-items{
-    border-bottom: 1px solid #757575;
+    border-bottom: 1px solid var(--color-border);
 }
-
+.img + .team-img + .portfolio-img{
+width: 100%;
+display: block;
+height: auto;
+}
 /* The end */

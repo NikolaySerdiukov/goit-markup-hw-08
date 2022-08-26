@@ -179,6 +179,19 @@ margin-bottom: 50px;
     line-height: 1.17;
     text-align: center;
 }
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 /* Team */
 .team{
     background-color: var(--primary-bgsection-color);
@@ -269,6 +282,7 @@ color:var(--accent-color);
     gap: 8px;
 }
 .filter-btn{
+    padding: 6px 22px;
     background-color: var(--primary-bgsection-color);
     color: var(--logo-color);
     font-weight: 500;

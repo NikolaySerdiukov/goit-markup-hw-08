@@ -24,7 +24,14 @@ ul{
     margin: 0;
 }
 /* RESET */
-
+h1,
+h2,
+h3,
+h4,
+h5,
+p{
+    margin: 0;
+}
 /* Hover and focus effects */
 .telephone:focus,
 .telephone:hover,
@@ -220,6 +227,7 @@ margin-bottom: 50px;
     padding-bottom: 30px;
 }
 .team-subtitle{
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19px;
@@ -237,6 +245,9 @@ margin-bottom: 50px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.footer-logo{
+    padding: 0;
+}
 .footer-conteiner .logo{
     display: block;
     padding-bottom: 20px;
@@ -248,9 +259,6 @@ margin-bottom: 50px;
     color: var(--primary-bgheader-color);
     font-weight: 400;
     font-style: normal;
-    /* Без font-style: normal;text-decoration: none;
-      текст виглядав курсивом з стилем Italic та підкреслений
-      з ситуації вийшов таким чином*/
     line-height: 1.71;
     text-decoration: none;
 }
@@ -262,9 +270,6 @@ margin-bottom: 50px;
     color: var(--address-color);
     font-weight: 400;
     font-style: normal;
-    /* Без font-style: normal;text-decoration: none;
-      текст виглядав курсивом з стилем Italic та підкреслений
-      з ситуації вийшов таким чином*/
     line-height: 1.71;
     text-decoration: none;
 }
@@ -320,7 +325,7 @@ color:var(--accent-color);
     line-height: 1.88px;
 }
 .text-conteiner{
-    margin: 20px 24px 54px;
+    padding: 20px 24px;
 }
 .portfolio-items{
     border-bottom: 1px solid var(--color-border);

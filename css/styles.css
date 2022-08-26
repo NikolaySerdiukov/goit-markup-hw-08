@@ -6,6 +6,7 @@
     --address-color: rgba(255, 255, 255, 0.6);
     --primary-bgheader-color: #FFFFFF;
     --primary-bghero-color: #2f303a;
+    --color-border: #eeeeee
     --primary-bgfeatures-color: #f5f5f5;
     --primary-bgsection-color:#f5f4fa;
 }
@@ -34,6 +35,9 @@ ul{
     color: var(--accent-color)
 }
 /* Header */
+.header {
+    border-bottom: 1px solid var(--color-border);
+}
 .header-conteiner{
     align-items: center;
     display: flex 
@@ -87,7 +91,7 @@ ul{
 
 .auth-nav {
     display: flex;
-    margin-left: 344px;
+    margin-left: auto;
     gap: 50px;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -143,8 +147,8 @@ border-radius: 4px;
 }
 /* Benefits-features */
 .section {
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .benefits-conteiner .list{
@@ -168,6 +172,8 @@ border-radius: 4px;
     gap: 30px;
 }
 .features-title{
+margin-bottom: 50px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -178,10 +184,20 @@ border-radius: 4px;
     background-color: var(--primary-bgsection-color);
 }
 .team-title{
+margin: 50px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+}
+.team-list {
+    display: flex;
+    gap: 30px;
+}
+.team-subtext{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .team-subtitle{
     font-weight: 500;
@@ -198,8 +214,13 @@ border-radius: 4px;
 /* Footer */
 .footer{
     background-color: var(--primary-bghero-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
-.footer .logo{
+.footer-conteiner .logo{
+    display: block;
+    padding-bottom: 20px;
+
     color: var(--primary-bgheader-color);
     text-decoration: none;
 }
@@ -212,6 +233,9 @@ border-radius: 4px;
       з ситуації вийшов таким чином*/
     line-height: 1.71;
     text-decoration: none;
+}
+.footer-list :nth-last-child(1n+2){
+    margin-bottom: 9px;
 }
 .address-mail,
 .address-tel{
@@ -238,6 +262,11 @@ color:var(--accent-color);
 .main .portfolio{
     background-color: var(--primary-bgfeatures-color);
 }
+.filter-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
 .filter-btn{
     background-color: var(--primary-bgsection-color);
     color: var(--logo-color);
@@ -245,6 +274,12 @@ color:var(--accent-color);
     font-size: 16px;
     line-height: 1.62;
 
+}
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 }
 .filter-btn:hover,
 .filter-btn:focus{
@@ -263,4 +298,11 @@ color:var(--accent-color);
     font-size: 16px;
     line-height: 1.88px;
 }
+.text-conteiner{
+    margin: 20px 24px 54px;
+}
+.portfolio-items{
+    border-bottom: 1px solid #757575;
+}
+
 /* The end */

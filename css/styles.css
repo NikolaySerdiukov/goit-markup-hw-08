@@ -266,6 +266,7 @@ color:var(--accent-color);
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    gap: 8px;
 }
 .filter-btn{
     background-color: var(--primary-bgsection-color);

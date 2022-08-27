@@ -57,9 +57,11 @@ p{
     margin-right: auto;
 
 }
+.main-nav {
+    margin-left: 93px;
+}
 .site-nav {
     display: flex;
-    margin-left: 93px;
     gap: 50px;
 }
 
@@ -75,6 +77,7 @@ p{
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    color: var(--logo-color)
 }
 
 .logo-color{
@@ -94,6 +97,7 @@ p{
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    color: var(--title-text-color);
 }
 
 .auth-nav {
@@ -115,7 +119,6 @@ p{
 
 /* Main-Hero */
 .main .hero{
-    width: 100%;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
@@ -171,14 +174,15 @@ border-radius: 4px;
     text-transform: uppercase;
 }
 .benefits-text{
-    margin: auto;
-    margin-bottom: 94px;
-    padding-top: 10px;
+
+    margin-top: 10px;
     color: var(--text-color);
     font-weight: 400;
     line-height: 1.71;
 }
-
+.features {
+    padding-top: 0;
+}
 .features-conteiner .features-list{
     display: flex;
     gap: 30px;
@@ -192,7 +196,7 @@ margin-bottom: 50px;
     line-height: 1.17;
     text-align: center;
 }
-.hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -230,7 +234,7 @@ margin-bottom: 50px;
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19px;
+    line-height: 1.19;
     text-align: center;
 }
 .team-text{
@@ -250,7 +254,7 @@ margin-bottom: 50px;
 }
 .footer-conteiner .logo{
     display: block;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 
     color: var(--primary-bgheader-color);
     text-decoration: none;
@@ -318,19 +322,20 @@ color:var(--accent-color);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-bottom: 4px;
 }
 .filter-text{
     color: var(--text-color);
     font-size: 16px;
-    line-height: 1.88px;
+    line-height: 1.88;
 }
 .text-conteiner{
     padding: 20px 24px;
-}
-.portfolio-items{
+    border-left: 1px solid var(--color-border);
+    border-right: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
 }
-.img + .team-img + .portfolio-img{
+img {
 width: 100%;
 display: block;
 height: auto;

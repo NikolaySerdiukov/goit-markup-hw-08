@@ -129,7 +129,9 @@ p{
     text-align: center;
     background-color: var(--hero-gradient);
 
-    background-image: url(../Images/bg-img.jpg);
+    background-image: 
+    linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../Images/bg-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -269,6 +269,14 @@ margin-bottom: 50px;
     line-height: 19px;
     text-align: center;
 }
+
+/* SVG TEAM */
+.soclink-list-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 /* Footer */
 .footer{
     background-color: var(--primary-bghero-color);

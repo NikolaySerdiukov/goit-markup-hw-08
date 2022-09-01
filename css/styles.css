@@ -169,7 +169,7 @@ border-radius: 4px;
     cursor: pointer;
 }
 /* WORK VS SVG IN BENEFITS */
-.conteiner .benefits-icon-conteiner{
+.benefits-icon-conteiner{
     display: flex;
     align-items: center;
     justify-content: center;

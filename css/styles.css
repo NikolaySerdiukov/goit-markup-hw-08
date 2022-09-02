@@ -413,6 +413,7 @@ color:var(--accent-color);
     color: #FFFFFF;
     background-color: var(--primary-bgfeatures-color);
     background: rgba(255, 255, 255, 0,1);
+    border-radius: 50%;
 }
                     /* Portfolio page*/
 /* Filter */

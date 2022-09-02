@@ -39,9 +39,9 @@ p{
 .telephone:hover,
 .mail:focus,
 .mail:hover,
-.link:hover,
-.link:focus{
-    color: var(--accent-color)
+.link:focus,
+.link:hover{
+    color: var(--accent-color);
 }
 /* Header */
 .header {

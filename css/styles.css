@@ -87,11 +87,11 @@ p{
 }
 
 /* Navigation */
-.active{
+.item .active{
     color: var(--accent-color);
 }
 
-.link{
+.list .link{
     padding-top: 32px;
     padding-bottom: 32px;
 

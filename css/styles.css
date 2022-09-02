@@ -327,6 +327,10 @@ margin-bottom: 50px;
 .client-link:focus{
 color: var(--accent-color);
 }
+
+.icon-brand{
+    fill: #afb1b8;
+}
 /* Footer */
 .footer{
     background-color: var(--primary-bghero-color);

@@ -83,6 +83,10 @@ p{
 .logo-color{
     color: var(--accent-color);
 }
+.contact{
+    display: flex;
+    align-items: center;
+}
 
 /* Navigation */
 .link{

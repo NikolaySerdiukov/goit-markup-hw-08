@@ -111,8 +111,7 @@ p{
     padding-bottom: 32px;
 }
 
-.telephone,
-.mail{
+.contact{
     color: var(--text-color);
     font-weight: 500;
     line-height: 1.14;

@@ -87,7 +87,7 @@ p{
 }
 
 /* Navigation */
-.link .active{
+.active{
     color: var(--accent-color);
 }
 

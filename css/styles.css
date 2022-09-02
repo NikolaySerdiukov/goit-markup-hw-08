@@ -410,8 +410,8 @@ color:var(--accent-color);
     width: 44px;
     height: 44px;
 
-    color: #FFFFFF;
-    background-color: var(--primary-bgfeatures-color);
+    color: va;
+    background-color: #afb1b8;
     background: rgba(255, 255, 255, 0,1);
     border-radius: 50%;
 }

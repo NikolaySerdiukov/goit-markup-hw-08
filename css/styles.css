@@ -333,6 +333,8 @@ margin-bottom: 50px;
 .client-link:hover,
 .client-link:focus{
 color: var(--accent-color);
+border: 1px solid var(--accent-color);
+
 }
 
 .icon-brand{

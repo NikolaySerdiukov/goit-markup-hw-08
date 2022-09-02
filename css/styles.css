@@ -286,13 +286,13 @@ margin-bottom: 50px;
     width: 44px;
     height: 44px;
 
-    fill: #afb1b8;
+    color: #afb1b8;
 }
 
 .team-link:hover,
 .team-link:focus{
     background-color: var(--accent-color);
-    fill: var(--primary-bgheader-color);
+    color: var(--primary-bgheader-color);
     border-radius: 50%;
 }
 /* clients section */
@@ -312,7 +312,7 @@ margin-bottom: 50px;
     border: 1px solid #afb1b8;
     border-radius: 4px;
 
-    fill: #afb1b8;
+    color: #afb1b8;
 }
 .clients-title{
     margin: auto;
@@ -325,7 +325,7 @@ margin-bottom: 50px;
 }
 .client-link:hover,
 .client-link:focus{
-fill: var(--accent-color);
+color: var(--accent-color);
 }
 /* Footer */
 .footer{
@@ -410,9 +410,7 @@ color:var(--accent-color);
     width: 44px;
     height: 44px;
 
-    color: va;
     background-color: #afb1b8;
-    background: rgba(255, 255, 255, 0,1);
     border-radius: 50%;
 }
                     /* Portfolio page*/

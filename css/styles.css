@@ -370,6 +370,11 @@ color:var(--accent-color);
 }
 
 /* SVG footer */
+.footer-all{
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+}
 .footer-list-link{
     display: flex;
     justify-content: center;

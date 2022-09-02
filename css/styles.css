@@ -393,8 +393,8 @@ color:var(--accent-color);
     background: rgba(255, 255, 255, 0,1);
 }
 
-.footer-link,
-.footer-link{
+.footer-link:hover,
+.footer-link:focus{
     background-color: var(--accent-color);
     border-radius: 50%;
 }

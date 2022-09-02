@@ -291,7 +291,7 @@ margin-bottom: 50px;
 .team-link:hover,
 .team-link:focus{
     background-color: var(--accent-color);
-    color: var(--primary-bgheader-color);
+    fill: var(--primary-bgheader-color);
     border-radius: 50%;
 }
 /* Footer */

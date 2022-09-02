@@ -389,7 +389,7 @@ color:var(--accent-color);
     border-radius: 50%;
 }
 
-.footer-title{
+.footer-link{
     margin: auto;
 margin-bottom: 20px;
 
@@ -399,6 +399,18 @@ margin-bottom: 20px;
     color: var(--primary-bgheader-color);
 }
 .taem-icon{curentcolor}
+
+.footer-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+
+    fill: var(--primary-bgheader-color);
+    background: rgba(255, 255, 255, 0,1);
+}
                     /* Portfolio page*/
 /* Filter */
 .main .portfolio{

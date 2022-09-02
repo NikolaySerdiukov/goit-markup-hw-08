@@ -35,10 +35,8 @@ p{
     margin: 0;
 }
 /* Hover and focus effects */
-.telephone:focus,
-.telephone:hover,
-.mail:focus,
-.mail:hover,
+.contact:focus,
+.contact:hover,
 .item .link:focus,
 .item .link:hover{
     color: var(--accent-color);

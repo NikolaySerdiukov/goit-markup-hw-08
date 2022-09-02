@@ -119,6 +119,9 @@ p{
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+.nav-icon{
+    fill: currentColor;
+}
 
 /* Main-Hero */
 .main .hero{

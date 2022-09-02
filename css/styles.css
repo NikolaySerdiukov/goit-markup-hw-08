@@ -287,6 +287,13 @@ margin-bottom: 50px;
 
     color: #afb1b8;
 }
+
+.team-link:hover,
+.team-link:focus{
+    background-color: var(--accent-color);
+    color: var(--primary-bgheader-color);
+    border-radius: 50%;
+}
 /* Footer */
 .footer{
     background-color: var(--primary-bghero-color);

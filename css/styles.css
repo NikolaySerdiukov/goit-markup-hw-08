@@ -369,6 +369,39 @@ fill: var(--accent-color);
 color:var(--accent-color);
 }
 
+/* SVG footer */
+.footer-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+
+    fill: var(--primary-bgheader-color);
+    background: rgba(255, 255, 255, 0,1);
+}
+
+.footer-link,
+.footer-link{
+    background-color: var(--accent-color);
+    border-radius: 50%;
+}
+
+.footer-title{
+    margin: auto;
+margin-bottom: 20px;
+
+    font-weight: 700;
+    line-height: 1.17;
+    text-align: center;
+}
                     /* Portfolio page*/
 /* Filter */
 .main .portfolio{

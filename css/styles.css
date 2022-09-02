@@ -87,10 +87,6 @@ p{
 }
 
 /* Navigation */
-.item .active{
-    color: var(--accent-color);
-}
-
 .list .link{
     padding-top: 32px;
     padding-bottom: 32px;
@@ -101,6 +97,11 @@ p{
     text-decoration: none;
     color: var(--title-text-color);
 }
+
+.item .active{
+    color: var(--accent-color);
+}
+
 
 .auth-nav {
     display: flex;

@@ -288,8 +288,8 @@ margin-bottom: 50px;
     fill: #afb1b8;
 }
 
-.team-link:hover,
-.team-link:focus{
+.team-link:hover .team-icon,
+.team-link:focus .team-icon{
     background-color: var(--accent-color);
     fill: var(--primary-bgheader-color);
     border-radius: 50%;

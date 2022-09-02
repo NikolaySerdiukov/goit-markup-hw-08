@@ -379,6 +379,11 @@ color: var(--accent-color);
 .address-tel:active{
 color:var(--accent-color);
 }
+.team-item{
+    border: 1px solid;
+    border-top: 0;
+    color: var(--color-border);
+}
 
 /* SVG footer */
 .footer-all{

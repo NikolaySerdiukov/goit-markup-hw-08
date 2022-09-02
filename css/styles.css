@@ -86,7 +86,7 @@ p{
 .contact{
     display: flex;
     align-items: center;
-    margin-right: 10px;
+    gap: 10px;
 }
 
 /* Navigation */

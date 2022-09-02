@@ -498,8 +498,6 @@ color:var(--accent-color);
     border-left: 1px solid var(--color-border);
     border-right: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
-}
-.portfolio-link{
     text-decoration: none;
 }
 img {

@@ -490,6 +490,8 @@ color:var(--accent-color);
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.88;
+
+    text-decoration: none;
 }
 .text-conteiner{
     padding: 20px 24px;
@@ -497,7 +499,6 @@ color:var(--accent-color);
     border-right: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
 
-    text-decoration: none;
 }
 img {
 width: 100%;

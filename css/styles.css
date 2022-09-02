@@ -321,6 +321,10 @@ margin-bottom: 50px;
     line-height: 1.17;
     text-align: center;
 }
+.client-link:hover,
+.client-link:focus{
+fill: var(--accent-color);
+}
 /* Footer */
 .footer{
     background-color: var(--primary-bghero-color);

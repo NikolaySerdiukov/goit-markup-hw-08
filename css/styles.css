@@ -391,13 +391,16 @@ color:var(--accent-color);
 
 .footer-title{
     margin: auto;
-margin-bottom: 20px;
+    margin-bottom: 20px;
 
     font-weight: 700;
     line-height: 1.17;
+
     color: var(--primary-bgheader-color);
 }
-.taem-icon{curentcolor}
+.taem-icon{
+    fill: currentColor;
+}
 
 .footer-link{
     display: flex;

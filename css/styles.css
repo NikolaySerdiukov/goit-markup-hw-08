@@ -382,17 +382,6 @@ color:var(--accent-color);
     align-items: center;
     gap: 10px;
 }
-.footer-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 44px;
-    height: 44px;
-
-    fill: var(--primary-bgheader-color);
-    background: rgba(255, 255, 255, 0,1);
-}
 
 .footer-link:hover,
 .footer-link:focus{

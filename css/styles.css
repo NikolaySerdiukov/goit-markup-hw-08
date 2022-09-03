@@ -127,7 +127,7 @@ p{
 
 /* Main-Hero */
 .main .hero{
-    max-width: 1600;
+    max-width: 1600px;
     margin: 0 auto;
 
     padding-top: 200px;
@@ -143,7 +143,6 @@ p{
     background-position: center;
 
     color: var(--primary-bgheader-color);
-    margin: 0;
 }
 
 .hero-title{
@@ -203,6 +202,7 @@ border: 0;
     margin: 0;
 
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
@@ -275,6 +275,8 @@ margin-bottom: 50px;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
+
+    margin-bottom: 16px;
 }
 
 /* SVG TEAM */
@@ -303,9 +305,12 @@ margin-bottom: 50px;
     border: 1px solid var(--accent-color);
 }
 /* clients section */
+.client-item{
+    width: 172px;
+    height: 92px;
+}
 .client-list{
     display: flex;
-    justify-content: center;
     gap: 30px;
 }
 .client-link{
@@ -313,8 +318,8 @@ margin-bottom: 50px;
     justify-content: center;
     align-items: center;
 
-    width: 172px;
-    height: 92px;
+    width: 100%;
+    height: 100%;
 
     border: 1px solid #afb1b8;
     border-radius: 4px;
@@ -375,11 +380,11 @@ border: 1px solid var(--accent-color);
     text-decoration: none;
 }
 .address-map:hover,
-.address-map:active,
+.address-map:focus,
 .address-mail:hover,
-.address-mail:active,
+.address-mail:focus,
 .address-tel:hover,
-.address-tel:active{
+.address-tel:focus{
 color:var(--accent-color);
 }
 .team-item{
@@ -413,6 +418,7 @@ color:var(--accent-color);
     margin: auto;
     margin-bottom: 20px;
 
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.17;
 
@@ -464,6 +470,7 @@ color:var(--accent-color);
 /* hover focus */
 .filter-btn:hover,
 .filter-btn:focus{
+    cursor: pointer;
     background-color: var(--accent-color);
     color: var(--primary-bgheader-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
@@ -472,9 +479,9 @@ color:var(--accent-color);
 }
 .portfolio-link:hover,
 .portfolio-link:focus{
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-     0px 1px 2px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12); 
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+     0px 4px 4px rgba(0, 0, 0, 0.06),
+      0px 4px 6px rgba(0, 0, 0, 0.16); 
 }
 /* end */
 .filer-title{

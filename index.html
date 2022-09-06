@@ -50,7 +50,14 @@
       <section class="section hero">
         <div class="conteiner conteiner-hero">
           <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ<br />ВАШОГО БІЗНЕСУ</h1>
-          <button class="button primary" type="button">Замовити послугу</button>
+          <button class="button primary" type="button" data-modal-open>Замовити послугу</button>
+        </div>
+        <!-- MODAL WINDOW -->
+        <div class="backdrop is-hiden" data-modal> 
+          <div class="modal">
+          <button type="button" data-modal-close>
+            <svg class="modal-svg" width="30px" height="30px"><use href="./Images/close.svg"></use></svg>  
+          </button></div>
         </div>
       </section>
 
@@ -115,32 +122,41 @@
         <ul class="features-list">
           <li>
             <a href="">
+              <div class="thumb">
               <img class="img"
                 src="./Images/photoone.jpg"
                 alt="рабочий стол"
                 width="370"
                 height="294"
               />
+              <div class="thumb-text"><p>десктопні додатки</p></div>
+            </div>
             </a>
           </li>
           <li>
-            <a href=""
-              ><img class="img"
+            <a href="">
+              <div class="thumb">
+              <img class="img"
                 src="./Images/phototwo.jpg"
                 alt="рабочий стол 2"
                 width="370"
                 height="294"
               />
+              <div class="thumb-text"><p>мобільні додатки</p></div>
+              </div>
             </a>
           </li>
           <li>
-            <a href=""
-              ><img class="img"
+            <a href="">
+              <div class="thumb">
+              <img class="img"
                 src="./Images/photothree.jpg"
                 alt="рабочий стол 3"
                 width="370"
                 height="294"
               />
+              <div class="thumb-text"><p>дизайнерські рішення</p></div>
+              </div>
             </a>
           </li>
         </ul>
@@ -497,5 +513,6 @@
       </div>
     </div>    
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

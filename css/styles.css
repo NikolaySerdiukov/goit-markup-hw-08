@@ -203,6 +203,7 @@ border: 0;
 .backdrop.is-hiden{
     opacity: 0;
     pointer-events: none;
+    visibility: hidden;
 }
 .benefits-icon{
     display: block;

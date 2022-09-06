@@ -175,6 +175,11 @@ border: 0;
     cursor: pointer;
 }
 /* MODAL WINDOW */
+.is-hiden{
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
 .backdrop{
     position: fixed;
     top: 0;
@@ -200,12 +205,8 @@ border: 0;
     1px 0px 1px rgba(0, 0, 0, 0.14),
     3px 0px 1px rgba(0, 0, 0, 0.12); 
 }
-.is-hiden{
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
-}
-.modal-button {
+
+.modal-button{
     position: absolute;
     top: 8px;
     right: 8px;

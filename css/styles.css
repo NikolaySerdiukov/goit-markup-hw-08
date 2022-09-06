@@ -553,6 +553,30 @@ color:var(--accent-color);
       0px 4px 6px rgba(0, 0, 0, 0.16); 
 }
 /* end */
+/* OVERLAY START*/
+.portfolio-thumb{
+    position: relative;
+}
+.por-th-text{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+
+    padding: 63px 24px;
+    color: var(--primary-bgheader-color);
+    background-color: rgba(33, 150, 243, 0.9);
+
+    font-size: 18px;
+    line-height: 1.33;
+}
+.portfolio-thumb:hover .por-th-text{
+    opacity: 1;
+}
+/* OVERLAY END */
 .filer-title{
     color: var(--title-text-color);
     font-weight: 700;

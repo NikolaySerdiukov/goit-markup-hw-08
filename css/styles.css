@@ -109,7 +109,7 @@ p{
     position: absolute;
     display: block;
     content: "";
-    bottom: -1px;
+    bottom: -1.3px;
     left: 0;
 
     background-color: var(--accent-color);

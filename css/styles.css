@@ -10,7 +10,10 @@
     --primary-bgfeatures-color: #f5f5f5;
     --primary-bgsection-color:#f5f4fa;
 
-    --hero-gradient: rgba(47, 48, 58, 0.4)
+    --hero-gradient: rgba(47, 48, 58, 0.4);
+    --Effects: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body{
@@ -40,6 +43,7 @@ p{
 .item .link:focus,
 .item .link:hover{
     color: var(--accent-color);
+    transition: var(--Effects);
 }
 /* Header */
 .header {
@@ -386,6 +390,7 @@ margin-bottom: 50px;
     color: var(--primary-bgheader-color);
     border-radius: 50%;
     border: 1px solid var(--accent-color);
+    transition: var(--Effects);
 }
 /* clients section */
 .client-item{
@@ -422,6 +427,7 @@ margin-bottom: 50px;
 .client-link:focus{
 color: var(--accent-color);
 border: 1px solid var(--accent-color);
+transition: var(--Effects);
 
 }
 
@@ -469,6 +475,7 @@ border: 1px solid var(--accent-color);
 .address-tel:hover,
 .address-tel:focus{
 color:var(--accent-color);
+transition: var(--Effects);
 }
 .team-item{
     background: var(--primary-bgheader-color);
@@ -495,6 +502,7 @@ color:var(--accent-color);
 .footer-link:focus{
     background-color: var(--accent-color);
     border-radius: 50%;
+    transition: var(--Effects);
 }
 
 .footer-title{
@@ -559,17 +567,20 @@ color:var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
      0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12); 
+      transition: var(--Effects);
 }
 .portfolio-link:hover,
 .portfolio-link:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
      0px 4px 4px rgba(0, 0, 0, 0.06),
       0px 4px 6px rgba(0, 0, 0, 0.16); 
+      transition: var(--Effects);
 }
 /* end */
 /* OVERLAY START*/
 .portfolio-thumb{
     position: relative;
+    overflow: hidden;
 }
 .por-th-text{
     position: absolute;
@@ -586,9 +597,12 @@ color:var(--accent-color);
 
     font-size: 18px;
     line-height: 1.33;
+    transform: translateY(100%);
 }
-.portfolio-thumb:hover .por-th-text{
+.portfolio-link:hover .por-th-text{
     opacity: 1;
+    transform: translateY(0);
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* OVERLAY END */
 .filer-title{

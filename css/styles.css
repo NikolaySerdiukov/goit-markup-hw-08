@@ -203,6 +203,9 @@ border: 0;
     height: 100%;
 
     background-color: rgba(0, 0, 0, 0.2);
+
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal{
     position: absolute;
@@ -312,13 +315,16 @@ margin-bottom: 50px;
     position: relative;
 }
 .thumb-text{
+    display: flex;
+height: 70px;
+justify-content: center;
+align-items: center;
+
     position: absolute;
     bottom: 0;
     left: 0;
 
-    text-align: center;
     width: 370px;
-    padding: 27px 0px;
     background-color: rgba(47, 48, 58, 0.8);
 
     font-weight: 700;
@@ -397,6 +403,7 @@ margin-bottom: 50px;
 .client-item{
     width: 172px;
     height: 92px;
+
 }
 .client-list{
     display: flex;
@@ -414,6 +421,10 @@ margin-bottom: 50px;
     border-radius: 4px;
 
     color: #afb1b8;
+
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-title{
     margin: auto;
@@ -428,7 +439,6 @@ margin-bottom: 50px;
 .client-link:focus{
 color: var(--accent-color);
 border: 1px solid var(--accent-color);
-transition: var(--Effects);
 
 }
 
@@ -457,6 +467,10 @@ transition: var(--Effects);
     font-style: normal;
     line-height: 1.71;
     text-decoration: none;
+
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-list :nth-last-child(1n+2){
     margin-bottom: 9px;
@@ -468,6 +482,10 @@ transition: var(--Effects);
     font-style: normal;
     line-height: 1.71;
     text-decoration: none;
+
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-map:hover,
 .address-map:focus,
@@ -476,7 +494,6 @@ transition: var(--Effects);
 .address-tel:hover,
 .address-tel:focus{
 color:var(--accent-color);
-transition: var(--Effects);
 }
 .team-item{
     background: var(--primary-bgheader-color);
@@ -503,7 +520,6 @@ transition: var(--Effects);
 .footer-link:focus{
     background-color: var(--accent-color);
     border-radius: 50%;
-    transition: var(--Effects);
 }
 
 .footer-title{
@@ -531,6 +547,10 @@ transition: var(--Effects);
     color: var(--primary-bgheader-color);
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
                     /* Portfolio page*/
 /* Filter */
@@ -553,6 +573,11 @@ transition: var(--Effects);
     border: 0;
     border-radius: 4px;
 
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .portfolio-list{
     display: flex;
@@ -568,14 +593,12 @@ transition: var(--Effects);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
      0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12); 
-      transition: var(--Effects);
 }
 .portfolio-link:hover,
 .portfolio-link:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
      0px 4px 4px rgba(0, 0, 0, 0.06),
       0px 4px 6px rgba(0, 0, 0, 0.16); 
-      transition: var(--Effects);
 }
 /* end */
 /* OVERLAY START*/
@@ -599,11 +622,15 @@ transition: var(--Effects);
     font-size: 18px;
     line-height: 1.33;
     transform: translateY(100%);
+       
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-link:hover .por-th-text{
+.portfolio-link:hover .por-th-text,
+.portfolio-link:focus .por-th-text
+{
     opacity: 1;
     transform: translateY(0);
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 /* OVERLAY END */
 .filer-title{
@@ -625,10 +652,14 @@ transition: var(--Effects);
     border-left: 1px solid var(--color-border);
     border-right: 1px solid var(--color-border);
     border-bottom: 1px solid var(--color-border);
+
 }
 .portfolio-link{
     display: block;
     text-decoration: none;
+
+       
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 img {
 width: 100%;

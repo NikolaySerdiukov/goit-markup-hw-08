@@ -55,9 +55,32 @@
         <!-- MODAL WINDOW -->
         <div class="backdrop is-hidden" data-modal> 
           <div class="modal">
-          <button class="modal-button" type="button"  data-modal-close>
-            <svg class="modal-svg" width="30px" height="30px"><use href="./sprite.svg#close"></use></svg>  
-          </button></div>
+            <button class="modal-button" type="button"  data-modal-close>
+              <svg class="modal-svg" width="30px" height="30px"><use href="./sprite.svg#close"></use></svg>  
+            </button>
+
+            <form class="form js-speaker-form">
+
+              <h3 class="form-title">Залиште свої дані, ми вам передзвонимо</h3>
+              <div class="form-field">
+                <label for="name" class="form-label">Ім'я
+                <input class="form-input" type="text" name="name" placeholder="Ivan Ivanovich">
+              </label>
+              </div>
+        
+          <div class="form-field">
+            <label for="tel" class="form-label">Телефон
+            <input class="form-input" type="text" name="tel" id="tel" placeholder="+380...">
+          </label>
+          </div>
+        
+          <div class="form-field">
+            <label for="mail" class="form-label">Пошта
+            <input class="form-input" type="email" name="mail" id="mail" placeholder="...@gmail.com">
+          </label>
+          </div>
+          </form>
+        </div>
         </div>
       </section>
 

@@ -367,6 +367,17 @@ resize: none;
     background-size: contain;
 }
 
+.checkbox:checked +.icon-check{
+    background-image: url(../sprite.svg#check);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.checkbox{
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
 .group-btn{
     padding: 10px 52px;
     background-color: var(--accent-color);

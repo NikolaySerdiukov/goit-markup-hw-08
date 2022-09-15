@@ -359,8 +359,10 @@ resize: none;
     display: block;
     width: 16px;
     height: 15px;
+    position: absolute;
+    left: 10px ;
 
-    background-image: url(../sprite.svg#check);
+    background-image: url(../sprite.svg#vector-3);
     background-repeat: no-repeat;
     background-size: contain;
 }

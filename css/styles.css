@@ -237,8 +237,12 @@ border: 0;
     justify-content: center;
 
     border: 0;
+    color: var(--logo-color);
     background-color: transparent;
     cursor: pointer;
+}
+.modal-svg{
+    fill: transparent;
 }
 
 .modal-button:focus,
@@ -318,10 +322,8 @@ border: 0;
     cursor: pointer;
 }
 
-.form-input:focus,
-.modal-comment:focus,
-.form-input:hover,
-.modal-comment:hover {
+.form-label:focus,
+.modal-label{
     border: 1px solid var(--accent-color);
     outline: 1px solid var(--accent-color);
 }

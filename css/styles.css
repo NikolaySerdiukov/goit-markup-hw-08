@@ -241,6 +241,11 @@ border: 0;
     cursor: pointer;
 }
 
+.modal-button:focus,
+.modal-button:hover{
+    color: var(--accent-color);
+}
+
 .form{
     display: flex;
     flex-direction: column;

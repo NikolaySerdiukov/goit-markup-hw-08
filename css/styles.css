@@ -329,8 +329,10 @@ border: 0;
     cursor: pointer;
 }
 
-.form-label:focus,
-.modal-label:hover{
+.form-label-text:focus,
+.form-label-text:hover,
+.form-agreement:focus,
+.form-agreement:hover{
     border: 1px solid var(--accent-color);
     outline: 1px solid var(--accent-color);
 }

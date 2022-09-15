@@ -363,8 +363,6 @@ resize: none;
     display: block;
     width: 16px;
     height: 15px;
-    position: absolute;
-    left: 10px ;
 
     background-image: url(../sprite.svg#vector-3);
     background-repeat: no-repeat;
@@ -379,6 +377,7 @@ resize: none;
 
 
 .group-btn{
+    margin-bottom: 40px;
     padding: 10px 52px;
     background-color: var(--accent-color);
     color: var(--primary-bgheader-color);
@@ -397,13 +396,12 @@ resize: none;
     align-items: center;
     justify-content: center;
     gap: 9px;
+
+    margin-bottom: 30px;
 }
 
 .text-agreement{
-
-    margin-bottom: 30px;
-
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--text-color);

@@ -330,7 +330,7 @@ border: 0;
 }
 
 .form-label:focus,
-.modal-label{
+.modal-label:hover{
     border: 1px solid var(--accent-color);
     outline: 1px solid var(--accent-color);
 }

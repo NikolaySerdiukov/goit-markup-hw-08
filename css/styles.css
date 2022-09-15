@@ -366,7 +366,7 @@ resize: none;
     background-size: contain;
 }
 
-.input-agreement:checked + .icon-check{
+.box:checked + .icon-check{
     background-image: url(../Images/check.svg);
     background-repeat: no-repeat;
     background-size: contain;

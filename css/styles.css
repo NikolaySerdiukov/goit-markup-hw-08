@@ -366,7 +366,7 @@ resize: none;
     background-size: contain;
 }
 
-.checkbox:checked +.icon-check{
+.checkbox:checked + .icon-check{
     background-image: url(../sprite.svg#check);
     background-repeat: no-repeat;
     background-size: contain;

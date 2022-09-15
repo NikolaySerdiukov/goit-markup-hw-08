@@ -361,13 +361,13 @@ resize: none;
     width: 16px;
     height: 15px;
 
-    background-image: url(./sprite.svg#sqwer);
+    background-image: url(../sprite.svg#sqwer);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .input-agreement:checked + .icon-check{
-    background-image: url(./sprite.svg#check);
+    background-image: url(../sprite.svg#check);
     background-repeat: no-repeat;
     background-size: contain;
 }

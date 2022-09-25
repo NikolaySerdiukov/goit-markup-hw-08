@@ -1,10 +1,25 @@
 // UTILS styles
-@import './utils/var';
+@import './utils/variables';
 @import './utils/visually-hidden';
 // BACE styles
 @import './bace/bace';
 @import './bace/reset';
 @import './bace/conteiner';
 // layouts styles
+@import './layouts/header';
+@import './layouts/navigation';
+@import './layouts/hero';
+@import './layouts/modal';
+@import './layouts/registration';
+@import './layouts/benefits';
+@import './layouts/features';
+@import './layouts/team';
+@import './layouts/clients';
+@import './layouts/footer';
+@import './layouts/subscription';
+@import './layouts/portfolio';
+@import './layouts/gallery';
 
 // componeent styles
+@import './components/btn';
+@import './components/logo';

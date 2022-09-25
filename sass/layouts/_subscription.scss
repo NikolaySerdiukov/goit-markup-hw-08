@@ -1,0 +1,38 @@
+/*ubscription block*/
+
+.footer-subscription{
+    margin-left: auto;
+}
+
+.footer-subscription__form{
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+}
+
+.subscription{
+    display: flex;
+    flex-direction: column;
+}
+.subscription__mail{
+color: var(--primary-bgheader-color)
+}
+
+.footer-subscription__form input {
+    width: 358px;
+    padding: 16px 295px 16px 16px;
+
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    
+    border-radius: 4px;
+}
+
+
+.footer-subscription__icon{
+    fill: var(--primary-bgheader-color);
+}
+
+                    /* Portfolio page*/

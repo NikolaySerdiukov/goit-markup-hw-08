@@ -97,8 +97,8 @@
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    &__btn:hover,
-    &__btn:focus{
+    &:hover,
+    &:focus{
     cursor: pointer;
     background-color: var(--accent-color);
     color: var(--primary-bgheader-color);

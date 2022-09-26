@@ -932,7 +932,7 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.filter-wrap__btn__btn:hover, .filter-wrap__btn__btn:focus {
+.filter-wrap__btn:hover, .filter-wrap__btn:focus {
   cursor: pointer;
   background-color: var(--accent-color);
   color: var(--primary-bgheader-color);

@@ -1,38 +1,27 @@
 /* Team */
 .team{
-    background-color: var(--primary-bgsection-color);
-}
-.team__title{
-    margin: auto;
-    margin-bottom: 50px;
-
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-}
-.team__list {
     display: flex;
     gap: 30px;
-}
-.team__subtext{
+
+    &__subtext{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.team__subtitle{
+    &__subtitle{
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
 }
-.team__text{
+    &__text{
     color: var(--text-color);
     font-size: 16px;
     line-height: 19px;
     text-align: center;
 
     margin-bottom: 16px;
+}
 }
 
 /* SVG TEAM */

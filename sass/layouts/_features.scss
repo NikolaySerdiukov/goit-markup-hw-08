@@ -1,27 +1,12 @@
 /* features  */
 .features {
-    padding-top: 0;
-
-&__title{
-    margin: auto;
-margin-bottom: 50px;
-
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-}
-
-&__list{
     display: flex;
     gap: 30px;
-}
 
 &__thumb{
     position: relative;
 }
-}
-.features-thumb__text{
+&__text{
     display: flex;
 height: 70px;
 justify-content: center;
@@ -39,5 +24,5 @@ align-items: center;
     line-height: 1.14;
     color: var(--primary-bgheader-color);
     text-transform: uppercase;
-
+    }
 }

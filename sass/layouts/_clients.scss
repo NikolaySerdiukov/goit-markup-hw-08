@@ -1,22 +1,15 @@
-.clients__title{
-    margin: auto;
-    margin-bottom: 50px;
-
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-}
-
-.clients__list{
+.clients{
     display: flex;
     gap: 30px;
-}
 
-.clients__item{
+    &__item{
     width: 172px;
     height: 92px;
+    }
 
+    &__icon{
+        fill: currentColor;
+    }
 }
 
 .clients__link{
@@ -43,6 +36,3 @@
     }
 }
 
-.clients__icon{
-    fill: currentColor;
-}

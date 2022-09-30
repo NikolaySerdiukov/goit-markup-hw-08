@@ -29,12 +29,11 @@
     color: var(--accent-color);
 }
 
-.nav-menu__item .active{
+.nav-menu__item .nav-menu__item--active{
     position: relative;
     color: var(--accent-color);
-}
 
-.active::after{
+    &::after{
     position: absolute;
     display: block;
     content: "";
@@ -47,9 +46,10 @@
     border-radius: 2px;
 
 }
+}
 
 
-.auth-nav__list {
+.auth-nav {
     display: flex;
     margin-left: auto;
     gap: 50px;
@@ -58,7 +58,7 @@
     
 }
 
-.auth-nav__contact{
+.auth-nav__link{
     display: flex;
     align-items: center;
     gap: 10px;

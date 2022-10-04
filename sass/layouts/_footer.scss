@@ -57,14 +57,14 @@
     align-items: baseline;
     @media screen and (min-width: 1200px) {
         display: flex;
-        gap: 70px;
+        gap: 116px;
         }  
 }
 .footer__conteiner--wrap{
     display: block;
     align-items: baseline;
     justify-content: center;
-    // gap: 70px;
+    
     @media screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
@@ -86,9 +86,6 @@
     @media screen and (min-width: 768px) {
         margin-bottom: 0;
         }
-    @media screen and (min-width: 1200px) {
- 
-        }  
 }
 
 .footer-group__title{
@@ -103,11 +100,9 @@
 
     color: var(--primary-bgheader-color);
 
-    @media screen and (min-width: 768px) {
-   
-        }
     @media screen and (min-width: 1200px) {
         text-align: start;
+        margin-left: 0;
         }  
 }
 

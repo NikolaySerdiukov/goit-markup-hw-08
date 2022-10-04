@@ -5,6 +5,7 @@
 
 .section--padding-top {
         display: none;
+        
         @media screen and (min-width: 1200px) {
             display: flex;
             gap: 30px;
@@ -22,9 +23,7 @@
     font-size: 28px;
     line-height: 1.17;
     text-align: center;
-    @media screen and (min-width: 768px) {
-        
-        }
+    
     @media screen and (min-width: 1200px) {
         font-size: 36px;
         margin-bottom: 50px;

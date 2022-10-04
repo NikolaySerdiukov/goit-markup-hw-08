@@ -24,4 +24,8 @@
 
     color: var(--primary-bgheader-color);
     text-decoration: none;
+    text-align: center;
+    @media screen and (min-width: 1200px) {
+        text-align: left;
+        }
 }

@@ -4,17 +4,31 @@
 }
 
 .section--padding-top {
-    padding-top: 0;
-  }
+        display: none;
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            gap: 30px;
+            padding-top: 0;
+            }
+    }
+
+
 
   .section__title{
     margin: auto;
-margin-bottom: 50px;
+    margin-bottom: 30px;
 
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 1.17;
     text-align: center;
+    @media screen and (min-width: 768px) {
+        
+        }
+    @media screen and (min-width: 1200px) {
+        font-size: 36px;
+        margin-bottom: 50px;
+        }
 }
 .section--bg-color{
     background-color: var(--primary-bgsection-color);

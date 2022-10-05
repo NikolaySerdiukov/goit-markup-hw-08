@@ -205,12 +205,16 @@
           <li>
             <a href="">
               <div class="features__thumb">
-              <img class="features__img"
-                src="./Images/photoone.jpg"
-                alt="рабочий стол"
-                width="370"
-                height="294"
-              />
+                <picture>
+                  <source media="(min-width: 1200px)"
+                  srcset="
+                  ./Images/features/pc-lg@1x.jpg,
+                  ./Images/features/pc-lg@2x.jpg,">
+                <img class="features__img"
+                  src="./Images/photoone.jpg"
+                  alt="рабочий стол"
+                 />
+                </picture>
               <div class="features__text"><p>десктопні додатки</p></div>
             </div>
             </a>
@@ -218,12 +222,16 @@
           <li>
             <a href="">
               <div class="features__thumb">
-              <img class="features__img"
-                src="./Images/phototwo.jpg"
-                alt="рабочий стол 2"
-                width="370"
-                height="294"
-              />
+                <picture>
+                  <source media="(min-width: 1200px)"
+                  srcset="
+                  ./Images/features/tel-lg@1x.jpg,
+                  ./Images/features/tel-lg@2x.jpg,">
+                <img class="features__img"
+                  src="./Images/phototwo.jpg"
+                  alt="рабочий стол 2"
+                />
+              </picture>
               <div class="features__text"><p>мобільні додатки</p></div>
               </div>
             </a>
@@ -231,12 +239,15 @@
           <li>
             <a href="">
               <div class="features__thumb">
-              <img class="features__img"
-                src="./Images/photothree.jpg"
-                alt="рабочий стол 3"
-                width="370"
-                height="294"
-              />
+                <picture>
+                  <source media="(min-width: 1200px)"
+                  srcset="
+                  ./Images/features/tab-lg@1x.jpg,
+                  ./Images/features/tab-lg@2x.jpg,">
+               <img class="features__img"
+                 src="./Images/photothree.jpg"
+                 alt="рабочий стол 3"
+                  />
               <div class="features__text"><p>дизайнерські рішення</p></div>
               </div>
             </a>
@@ -250,12 +261,24 @@
         <h2 class="section__title">Наша команда</h2>
         <ul class="team">
           <li class="team__item">
+            <picture>
+              <source media="(min-width: 480px)"
+              srcset="
+              ./Images/team/ihor-sm@1x.jpg,
+              ./Images/team/ihor-sm@2x.jpg">
+              <source media="(min-width: 768px)"
+              srcset="
+              ./Images/team/ihor-md@1x.jpg,
+              ./Images/team/ihor-md@2x.jpg">
+              <source media="(min-width: 1200px)"
+              srcset="
+              ./Images/team/ihor-lg@1x.jpg,
+              ./Images/team/ihor-lg@2x.jpg">
             <img class="team__img"
-              src="./Images/photofour.jpg"
+             src="./Images/photofour.jpg"
               alt="Ігор Демʼяненко"
-              width="270"
-              height="260"
             />
+          </picture>
             <div class="team__subtext">
             <h3 class="team__subtitle">Ігор Демʼяненко</h3>
             <p class="team__text">Produkt Designer</p>
@@ -304,12 +327,24 @@
           </div>
           </li>
           <li class="team__item">
+            <picture>
+              <source media="(min-width: 480px)"
+              srcset="
+              ./Images/team/olga-sm@1x.jpg,
+              ./Images/team/olga-sm@2x.jpg">
+              <source media="(min-width: 768px)"
+              srcset="
+              ./Images/team/olga-md@1x.jpg,
+              ./Images/team/olga-md@2x.jpg">
+              <source media="(min-width: 1200px)"
+              srcset="
+              ./Images/team/olga-lg@1x.jpg,
+              ./Images/team/olga-lg@2x.jpg">
             <img class="team__img"
               src="./Images/photofive.jpg"
               alt="Ольга Рєпіна"
-              width="270"
-              height="260"
             />
+            </picture>
             <div class="team__subtext">
             <h3 class="team__subtitle">Ольга Рєпіна</h3>
             <p class="team__text">Fronted Developer</p>
@@ -359,12 +394,24 @@
             </div>
           </li>
           <li class="team__item">
+            <picture>
+              <source media="(min-width: 480px)"
+              srcset="
+              ./Images/team/nick-sm@1x.jpg,
+              ./Images/team/nick-sm@2x.jpg">
+              <source media="(min-width: 768px)"
+              srcset="
+              ./Images/team/nick-md@1x.jpg,
+              ./Images/team/nick-md@2x.jpg">
+              <source media="(min-width: 1200px)"
+              srcset="
+              ./Images/team/nick-lg@1x.jpg,
+              ./Images/team/nick-lg@2x.jpg">
             <img class="team__img"
               src="./Images/photosix.jpg"
               alt="Микола Тарасов"
-              width="270"
-              height="260"
             />
+            </picture>
             <div class="team__subtext">
             <h3 class="team__subtitle">Микола Тарасов</h3>
             <p class="team__text">Marketing</p>
@@ -413,12 +460,24 @@
           </div>
           </li>
           <li class="team__item">
+            <picture>
+              <source media="(min-width: 480px)"
+              srcset="
+              ./Images/team/misha-sm@1x.jpg,
+              ./Images/team/misha-sm@2x.jpg">
+              <source media="(min-width: 768px)"
+              srcset="
+              ./Images/team/misha-md@1x.jpg,
+              ./Images/team/misha-md@2x.jpg">
+              <source media="(min-width: 1200px)"
+              srcset="
+              ./Images/team/misha-lg@1x.jpg,
+              ./Images/team/misha-lg@2x.jpg">
             <img class="team__img"
               src="./Images/photoseven.jpg"
               alt="Михайло Єрмаков"
-              width="270"
-              height="260"
             />
+            </picture>
             <div class="team__subtext">
             <h3 class="team__subtitle">Михайло Єрмаков</h3>
             <p class="team__text">UI Designer</p>

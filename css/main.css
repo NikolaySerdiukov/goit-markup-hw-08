@@ -51,7 +51,7 @@ p {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   display: block;
   height: auto;
 }
@@ -276,18 +276,44 @@ img {
   margin: 0 auto;
   text-align: center;
   background-color: var(--hero-gradient);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../Images/bg-img.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/bg-img.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../Images/hero/bg-img-sm@1x.png);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/hero/bg-img-sm@1x.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: var(--primary-bgheader-color);
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../Images/hero/bg-img-sm@2x.png);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/hero/bg-img-sm@2x.png);
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../Images/hero/bg-img-med@1x.png);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/hero/bg-img-med@1x.png);
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../Images/hero/bg-img-med@2x.png);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/hero/bg-img-med@2x.png);
+  }
 }
 @media screen and (min-width: 1200px) {
   .hero {
     max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../Images/hero/bg-img-lg@1x.png);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/hero/bg-img-lg@1x.png);
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../Images/hero/bg-img-lg@2x.png);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/hero/bg-img-lg@2x.png);
   }
 }
 
@@ -1105,11 +1131,25 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   gap: 8px;
+}
+@media screen and (min-width: 768px) {
+  .filter-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+    gap: 8px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .filter-wrap {
+    margin-bottom: 50px;
+  }
 }
 
 .gallery-list {
@@ -1254,6 +1294,7 @@ img {
   background-color: white;
 }
 .menu-container.is-open {
+  z-index: 1000;
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
@@ -1434,7 +1475,7 @@ img {
 }
 
 .filter-wrap__btn {
-  padding: 6px 22px;
+  padding: 6px 25px;
   background-color: var(--primary-bgsection-color);
   color: var(--logo-color);
   font-weight: 500;

@@ -17,33 +17,35 @@
     <!-- Header -->
     <header class="header">
       <!--Navigation-->
-    <div class="conteiner header__conteiner">
-    <a class="logo" href="./index.html"><span class="logo__color">Web</span>Studio</a>
-    <nav class="nav-menu">
-      <ul class="nav-menu__list">
-        <li class="nav-menu__item"><a href="./index.html" class="nav-menu__link">Студія</a></li>
-        <li class="nav-menu__item"><a href="./portfolio.html" class="nav-menu__link nav-menu__item--active">Портфоліо</a></li>
-        <li class="nav-menu__item"><a href="" class="nav-menu__link">Контакти </a></li>
-      </ul>
-    </nav>
-    <!--Contact us-->
-    <ul class="auth-nav">
-      <li class="auth-nav__item">
-        <a href="mailto:info@devstudio.com" class="auth-nav__link">
-          <svg class="auth-nav__icon" width="16" height="12">
-            <use href="./sprite.svg#mail"></use>
-          </svg>
-          info@devstudio.com
-        </a>
-      </li>
-      <li class="auth-nav__item"><a href="tel:+380961111111" class="auth-nav__link">
-        <svg class="auth-nav__icon" width="10" height="16">
-          <use href="./sprite.svg#telephone"></use>
-        </svg>
-        +380961111111
-      </a>
-    </li>
-    </ul>
+      <div class="conteiner header__conteiner">
+        <a class="logo" href="./index.html"><span class="logo__color">Web</span>Studio</a>
+        <div class="header__conteiner--hidden">
+        <nav class="nav-menu">
+          <ul class="nav-menu__list">
+            <li class="nav-menu__item"><a href="./index.html" class="nav-menu__link">Студія</a></li>
+            <li class="nav-menu__item"><a href="./portfolio.html" class="nav-menu__link nav-menu__item--active">Портфоліо</a></li>
+            <li class="nav-menu__item"><a href="" class="nav-menu__link">Контакти </a></li>
+          </ul>
+        </nav>
+        <!--Contact us-->
+        <ul class="auth-nav">
+          <li class="auth-nav__item">
+            <a href="mailto:info@devstudio.com" class="auth-nav__link">
+              <svg class="auth-nav__icon" width="16" height="12">
+                <use href="./sprite.svg#mail"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="auth-nav__item"><a href="tel:+380961111111" class="auth-nav__link">
+            <svg class="auth-nav__icon" width="10" height="16">
+              <use href="./sprite.svg#telephone"></use>
+            </svg>
+            +380961111111
+          </a>
+        </li>
+        </ul>
+      </div>
     <button type="button" class="menu-btn js-open-menu"
     aria-expanded="false"
     aria-controls="mobile-menu">
@@ -78,7 +80,7 @@
   </div>
   </header>
 
-    <!-- <main class="main">
+    <main class="main">
         <section class="section">
           <div class="conteiner">
             <h1 class="visually-hidden">Портфоліо</h1>
@@ -94,12 +96,24 @@
                 <li clsass="gallery-list__items">
                   <a href="" class="gallery-list__link">
                     <div class="gallery-list__thumb">
+                      <picture>
+                        <source media="(min-width: 1200px)"
+                        srcset="
+                        ./Images/portfolio/desktop/techno-lg@1x.jpg,
+                        ./Images/portfolio/desktop/techno-lg@2x.jpg">
+                        <source media="(min-width: 768px)"
+                        srcset="
+                        ./Images/portfolio/tablet/techno-md@1x.jpg,
+                        ./Images/portfolio/tablet/techno-md@2x.jpg">
+                        <source media="(min-width: 480px)"
+                        srcset="
+                        ./Images/portfolio/mobile/techno-sm@1x.jpg,
+                        ./Images/portfolio/mobile/techno-sm@2x.jpg">
                       <img
                     src="./images/techno.jpg"
                     alt="notebook"
-                    width="370"
-                    height="294"
                     />
+                      </picture>
                     <div class="gallery-list__text"><p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p></div>
                   </div>
                     <div class="gallery-list__conteiner">
@@ -111,12 +125,24 @@
                 <li clsass="gallery-list__items">
                   <a href="" class="gallery-list__link">
                      <div class="gallery-list__thumb">
+                      <picture>
+                        <source media="(min-width: 1200px)"
+                        srcset="
+                        ./Images/portfolio/desktop/basket-lg@1x.jpg,
+                        ./Images/portfolio/desktop/basket-lg@2x.jpg">
+                        <source media="(min-width: 768px)"
+                        srcset="
+                        ./Images/portfolio/tablet/basket-md@1x.jpg,
+                        ./Images/portfolio/tablet/basket-md@2x.jpg">
+                        <source media="(min-width: 480px)"
+                        srcset="
+                        ./Images/portfolio/mobile/basket-sm@1x.jpg,
+                        ./Images/portfolio/mobile/basket-sm@2x.jpg">
                     <img
                     src="./images/basket.jpg"
                     alt="basket"
-                    width="370"
-                    height="294"
                     />
+                      </picture>
                     <div class="gallery-list__text"><p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p></div>
                   </div>
                     <div class="gallery-list__conteiner">
@@ -127,13 +153,26 @@
                  </li>
                 <li clsass="gallery-list__items">
                   <a href="" class="gallery-list__link">
-                     <div class="gallery-list__thumb">
+                     <div class="gallery-list__thumb"> 
+                      <picture>
+                        <source media="(min-width: 1200px)"
+                        srcset="
+                        ./Images/portfolio/desktop/seafood-lg@1x.jpg,
+                        ./Images/portfolio/desktop/seafood-lg@2x.jpg">
+                      <source media="(min-width: 768px)"
+                      srcset="
+                      ./Images/portfolio/tablet/seafood-md@1x.jpg,
+                      ./Images/portfolio/tablet/seafood-md@2x.jpg">
+                      <source media="(min-width: 480px)"
+                      srcset="
+                      ./Images/portfolio/mobile/seafood-sm@1x.jpg,
+                      ./Images/portfolio/mobile/seafood-sm@2x.jpg">
+
                     <img
                     src="./images/seafood.jpg"
                     alt="seafood"
-                    width="370"
-                    height="294"
                     />
+                    </picture>
                     <div class="gallery-list__text"><p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p></div>
                   </div>
                     <div class="gallery-list__conteiner">
@@ -145,12 +184,26 @@
                 <li clsass="gallery-list__items">
                   <a href="" class="gallery-list__link">
                      <div class="gallery-list__thumb">
+                      <picture>
+                        <source media="(min-width: 1200px)"
+                        srcset="
+                        ./Images/portfolio/desktop/head-lg@1x.jpg,
+                        ./Images/portfolio/desktop/head-lg@2x.jpg">
+
+                      <source media="(min-width: 768px)"
+                      srcset="
+                      ./Images/portfolio/tablet/head-md@1x.jpg,
+                      ./Images/portfolio/tablet/head-md@2x.jpg">
+                      <source media="(min-width: 480px)"
+                      srcset="
+                      ./Images/portfolio/mobile/head-sm@1x.jpg,
+                      ./Images/portfolio/mobile/head-sm@2x.jpg">
+
                     <img
                     src="./images/headphones.jpg"
                     alt="headphones"
-                    width="370"
-                    height="294"
                      />
+                      </picture>
                      <div class="gallery-list__text"><p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p></div>
                     </div>
                      <div class="gallery-list__conteiner">
@@ -162,7 +215,22 @@
                 <li clsass="gallery-list__items">
                   <a href="" class="gallery-list__link">
                      <div class="gallery-list__thumb">
-                    <img src="./images/boxes.jpg" alt="boxes" width="370" height="294" />
+                      <picture>
+                        <source media="(min-width: 1200px)"
+                        srcset="
+                        ./Images/portfolio/desktop/box-lg@1x.jpg,
+                        ./Images/portfolio/desktop/box-lg@2x.jpg">
+
+                        <source media="(min-width: 768px)"
+                        srcset="
+                        ./Images/portfolio/tablet/box-md@1x.jpg,
+                        ./Images/portfolio/tablet/box-md@2x.jpg">
+                        <source media="(min-width: 480px)"
+                        srcset="
+                        ./Images/portfolio/mobile/box-sm@1x.jpg,
+                        ./Images/portfolio/mobile/box-sm@2x.jpg">
+                        <img src="./images/boxes.jpg" alt="boxes"/>
+                      </picture>
                     <div class="gallery-list__text"><p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p></div>  
                   </div>
                     <div class="gallery-list__conteiner">
@@ -174,12 +242,27 @@
                 <li clsass="gallery-list__items">
                   <a href="" class="gallery-list__link">
                      <div class="gallery-list__thumb">
+                      <picture>
+                        <source media="(min-width: 1200px)"
+                        srcset="
+                        ./Images/portfolio/desktop/mon-lg@1x.jpg,
+                        ./Images/portfolio/desktop/mon-lg@2x.jpg">
+
+                        <source media="(min-width: 768px)"
+                        srcset="
+                        ./Images/portfolio/tablet/mon-md@1x.jpg,
+                        ./Images/portfolio/tablet/mon-md@2x.jpg">
+                        
+                        <source media="(min-width: 480px)"
+                        srcset="
+                        ./Images/portfolio/mobile/mon-sm@1x.jpg,
+                        ./Images/portfolio/mobile/mon-sm@2x.jpg">
+  
                     <img
                     src="./images/monitor.jpg"
                     alt="desktop"
-                    width="370"
-                    height="294"
                     />
+                      </picture>
                     <div class="gallery-list__text"><p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p></div>
                      </div>
                     <div class="gallery-list__conteiner">
@@ -191,7 +274,24 @@
                 <li clsass="gallery-list__items">
                   <a href="" class="gallery-list__link">
                      <div class="gallery-list__thumb">
-                    <img src="./images/book.jpg" alt="book" width="370" height="294" />
+                      <picture>
+                        <source media="(min-width: 1200px)"
+                        srcset="
+                        ./Images/portfolio/desktop/book-lg@1x.jpg,
+                        ./Images/portfolio/desktop/book-lg@2x.jpg">
+
+                        <source media="(min-width: 768px)"
+                        srcset="
+                        ./Images/portfolio/tablet/book-md@1x.jpg,
+                        ./Images/portfolio/tablet/book-md@2x.jpg">
+
+                        <source media="(min-width: 480px)"
+                        srcset="
+                        ./Images/portfolio/mobile/book-sm@1x.jpg,
+                        ./Images/portfolio/mobile/book-sm@2x.jpg">
+
+                    <img src="./images/book.jpg" alt="book" />
+                      </picture>
                     <div class="gallery-list__text"><p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p></div>
                   </div>
                     <div class="gallery-list__conteiner">
@@ -203,7 +303,24 @@
                 <li clsass="gallery-list__items">
                   <a href="" class="gallery-list__link">
                      <div class="gallery-list__thumb">
-                    <img src="./images/tag.jpg" alt="tag" width="370" height="294" />
+                      <picture>
+                        <source media="(min-width: 1200px)"
+                        srcset="
+                        ./Images/portfolio/desktop/tag-lg@1x.jpg,
+                        ./Images/portfolio/desktop/tag-lg@2x.jpg">
+
+                        <source media="(min-width: 768px)"
+                        srcset="
+                        ./Images/portfolio/tablet/tag-md@1x.jpg,
+                        ./Images/portfolio/tablet/tag-md@2x.jpg">
+
+                        <source media="(min-width: 480px)"
+                        srcset="
+                        ./Images/portfolio/mobile/tag-sm@1x.jpg,
+                        ./Images/portfolio/mobile/tag-sm@2x.jpg">
+
+                    <img src="./images/tag.jpg" alt="tag" />
+                      </picture>
                     <div class="gallery-list__text"><p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p></div>
                   </div>
                     <div class="gallery-list__conteiner">
@@ -215,12 +332,28 @@
                 <li clsass="gallery-list__items">
                   <a href="" class="gallery-list__link">
                      <div class="gallery-list__thumb">
+                      <picture>
+
+                        <source media="(min-width: 1200px)"
+                        srcset="
+                        ./Images/portfolio/desktop/nb-lg@1x.jpg,
+                        ./Images/portfolio/desktop/nb-lg@2x.jpg">
+
+                        <source media="(min-width: 768px)"
+                        srcset="
+                        ./Images/portfolio/tablet/nb-md@1x.jpg,
+                        ./Images/portfolio/tablet/nb-md@2x.jpg">
+
+                        <source media="(min-width: 480px)"
+                        srcset="
+                        ./Images/portfolio/mobile/nb-sm@1x.jpg,
+                        ./Images/portfolio/mobile/nb-sm@2x.jpg">
+
                     <img
                     src="./images/notebook.jpg"
                     alt="bussines"
-                    width="370"
-                    height="294"
                     />
+                      </picture>
                     <div class="gallery-list__text"><p>Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p></div>
                   </div>
                     <div class="gallery-list__conteiner">
@@ -232,7 +365,7 @@
             </ul>
           </div>
         </section>
-    </main> -->
+    </main>
 
     <!--Footer-->
     <footer class="footer">

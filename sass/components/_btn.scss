@@ -80,6 +80,7 @@
     color: var(--primary-bgheader-color);
     background-color: var(--accent-color);
     @media screen and (min-width: 768px) {
+        // align-items: center;
         margin: auto;
      }
  
@@ -90,7 +91,7 @@
 
 
 .filter-wrap__btn{
-    padding: 6px 22px;
+    padding: 6px 25px;
     background-color: var(--primary-bgsection-color);
     color: var(--logo-color);
     font-weight: 500;

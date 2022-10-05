@@ -83,7 +83,7 @@
 
     color: var(--text-color);
     font-weight: 500;
-    font-size: 12px;
+        font-size: 12px;
     gap: 8px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -95,12 +95,12 @@
         font-size: 14px;
         gap: 10px;
 }
+}
 
-    &:focus,
-    &:hover{
+.auth-nav__link:focus,
+.auth-nav__link:hover{
     color: var(--accent-color);
     }
-}
 
 .auth-nav__icon{
     fill: currentColor;

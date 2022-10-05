@@ -3,5 +3,18 @@
 }
 .header__conteiner{
     align-items: center;
-    display: flex 
+    display: flex;
+    
+}
+.header__conteiner--hidden{
+    display: none;
+    align-items: center;
+    @media screen and (min-width: 768px){
+        display: flex;
+        gap: 88px;
+    }
+    @media screen and (min-width: 1200px){
+        display: flex;
+        gap: 0;
+    }
 }

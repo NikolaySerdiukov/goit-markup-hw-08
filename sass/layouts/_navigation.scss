@@ -1,5 +1,8 @@
 .nav-menu {
-    margin-left: 93px;
+    margin-left: 83px;
+    @media screen and (min-width: 1200px) {
+        margin-left: 93px;
+        }
 }
 .nav-menu__list {
     display: flex;
@@ -29,6 +32,7 @@
     color: var(--accent-color);
 }
 
+
 .nav-menu__item .nav-menu__item--active{
     position: relative;
     color: var(--accent-color);
@@ -50,33 +54,54 @@
 
 
 .auth-nav {
-    display: flex;
-    margin-left: auto;
-    gap: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    
-}
 
+    @media screen and (min-width: 768) {
+        display: block;
+        margin-left: auto;
+                }   
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        margin-left: auto;
+        gap: 31px;
+        margin-left: 315px;
+        // padding-top: 32px;
+        // padding-bottom: 32px;
+              }
+}
+.auth-nav__item{
+    @media screen and (min-width: 768px) {
+        display: block;
+        margin: 21px 0;
+                }
+
+}
 .auth-nav__link{
     display: flex;
     align-items: center;
-    gap: 10px;
+
+
 
     color: var(--text-color);
     font-weight: 500;
+    font-size: 12px;
+    gap: 8px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+    @media screen and (min-width: 1200) {
+        font-size: 14px;
+        gap: 10px;
+}
+
     &:focus,
     &:hover{
     color: var(--accent-color);
+    }
 }
 
-}
 .auth-nav__icon{
     fill: currentColor;
 }

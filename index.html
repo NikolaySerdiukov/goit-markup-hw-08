@@ -56,7 +56,7 @@
       <!-- Mobile menu window -->
       <div class="menu-container js-menu-container" id="mobile-menu">
         <button class="menu-toggle js-close-menu">
-          <svg class="menu-btn__close" width="18" height="18"></svg>
+          <svg class="menu-btn__close" width="18" height="18">
             <use href="./sprite.svg#close-btn"></use>
           </svg>
         </button>
@@ -137,7 +137,7 @@
 
               <button type="submit" class="register-form__btn">Відправити</button>
 
-            </div>
+            <!-- </div> -->
           </form>
         </div>
         </div>
@@ -208,8 +208,8 @@
                 <picture>
                   <source media="(min-width: 1200px)"
                   srcset="
-                  ./Images/features/pc-lg@1x.jpg,
-                  ./Images/features/pc-lg@2x.jpg,">
+                  ./Images/features/pc-lg@1x.jpg 1x,
+                  ./Images/features/pc-lg@2x.jpg 2x">
                 <img class="features__img"
                   src="./Images/photoone.jpg"
                   alt="рабочий стол"
@@ -225,8 +225,8 @@
                 <picture>
                   <source media="(min-width: 1200px)"
                   srcset="
-                  ./Images/features/tel-lg@1x.jpg,
-                  ./Images/features/tel-lg@2x.jpg,">
+                  ./Images/features/tel-lg@1x.jpg 1x,
+                  ./Images/features/tel-lg@2x.jpg 2x">
                 <img class="features__img"
                   src="./Images/phototwo.jpg"
                   alt="рабочий стол 2"
@@ -242,12 +242,13 @@
                 <picture>
                   <source media="(min-width: 1200px)"
                   srcset="
-                  ./Images/features/tab-lg@1x.jpg,
-                  ./Images/features/tab-lg@2x.jpg,">
+                  ./Images/features/tab-lg@1x.jpg 1x,
+                  ./Images/features/tab-lg@2x.jpg 2x">
                <img class="features__img"
                  src="./Images/photothree.jpg"
                  alt="рабочий стол 3"
                   />
+                  </picture>
               <div class="features__text"><p>дизайнерські рішення</p></div>
               </div>
             </a>
@@ -262,18 +263,18 @@
         <ul class="team">
           <li class="team__item">
             <picture>
-              <source media="(min-width: 480px)"
-              srcset="
-              ./Images/team/ihor-sm@1x.jpg,
-              ./Images/team/ihor-sm@2x.jpg">
-              <source media="(min-width: 768px)"
-              srcset="
-              ./Images/team/ihor-md@1x.jpg,
-              ./Images/team/ihor-md@2x.jpg">
               <source media="(min-width: 1200px)"
               srcset="
-              ./Images/team/ihor-lg@1x.jpg,
-              ./Images/team/ihor-lg@2x.jpg">
+              ./Images/team/ihor-lg@1x.jpg 1x,
+              ./Images/team/ihor-lg@2x.jpg 2x">
+              <source media="(min-width: 768px)"
+              srcset="
+              ./Images/team/ihor-md@1x.jpg 1x,
+              ./Images/team/ihor-md@2x.jpg 2x">
+              <source media="(max-width: 767px)"
+              srcset="
+              ./Images/team/ihor-sm@1x.jpg 1x,
+              ./Images/team/ihor-sm@2x.jpg 2x">
             <img class="team__img"
              src="./Images/photofour.jpg"
               alt="Ігор Демʼяненко"
@@ -328,18 +329,19 @@
           </li>
           <li class="team__item">
             <picture>
-              <source media="(min-width: 480px)"
-              srcset="
-              ./Images/team/olga-sm@1x.jpg,
-              ./Images/team/olga-sm@2x.jpg">
-              <source media="(min-width: 768px)"
-              srcset="
-              ./Images/team/olga-md@1x.jpg,
-              ./Images/team/olga-md@2x.jpg">
               <source media="(min-width: 1200px)"
               srcset="
-              ./Images/team/olga-lg@1x.jpg,
-              ./Images/team/olga-lg@2x.jpg">
+              ./Images/team/olga-lg@1x.jpg 1x,
+              ./Images/team/olga-lg@2x.jpg 2x">
+              <source media="(min-width: 768px)"
+              srcset="
+              ./Images/team/olga-md@1x.jpg 1x,
+              ./Images/team/olga-md@2x.jpg 2x">
+              <source media="(max-width: 767px)"
+              srcset="
+              ./Images/team/olga-sm@1x.jpg 1x,
+              ./Images/team/olga-sm@2x.jpg 2x">
+
             <img class="team__img"
               src="./Images/photofive.jpg"
               alt="Ольга Рєпіна"
@@ -395,18 +397,19 @@
           </li>
           <li class="team__item">
             <picture>
-              <source media="(min-width: 480px)"
-              srcset="
-              ./Images/team/nick-sm@1x.jpg,
-              ./Images/team/nick-sm@2x.jpg">
-              <source media="(min-width: 768px)"
-              srcset="
-              ./Images/team/nick-md@1x.jpg,
-              ./Images/team/nick-md@2x.jpg">
               <source media="(min-width: 1200px)"
               srcset="
-              ./Images/team/nick-lg@1x.jpg,
-              ./Images/team/nick-lg@2x.jpg">
+              ./Images/team/nick-lg@1x.jpg 1x,
+              ./Images/team/nick-lg@2x.jpg 2x">
+              <source media="(min-width: 768px)"
+              srcset="
+              ./Images/team/nick-md@1x.jpg 1x,
+              ./Images/team/nick-md@2x.jpg 2x">
+              <source media="(max-width: 767px)"
+              srcset="
+              ./Images/team/nick-sm@1x.jpg 1x,
+              ./Images/team/nick-sm@2x.jpg 2x">
+
             <img class="team__img"
               src="./Images/photosix.jpg"
               alt="Микола Тарасов"
@@ -461,18 +464,19 @@
           </li>
           <li class="team__item">
             <picture>
-              <source media="(min-width: 480px)"
-              srcset="
-              ./Images/team/misha-sm@1x.jpg,
-              ./Images/team/misha-sm@2x.jpg">
-              <source media="(min-width: 768px)"
-              srcset="
-              ./Images/team/misha-md@1x.jpg,
-              ./Images/team/misha-md@2x.jpg">
               <source media="(min-width: 1200px)"
               srcset="
-              ./Images/team/misha-lg@1x.jpg,
-              ./Images/team/misha-lg@2x.jpg">
+              ./Images/team/misha-lg@1x.jpg 1x,
+              ./Images/team/misha-lg@2x.jpg 2x">
+              <source media="(min-width: 768px)"
+              srcset="
+              ./Images/team/misha-md@1x.jpg 1x,
+              ./Images/team/misha-md@2x.jpg 2x">
+              <source media="(max-width: 767px)"
+              srcset="
+              ./Images/team/misha-sm@1x.jpg 1x,
+              ./Images/team/misha-sm@2x.jpg 2x">
+
             <img class="team__img"
               src="./Images/photoseven.jpg"
               alt="Михайло Єрмаков"

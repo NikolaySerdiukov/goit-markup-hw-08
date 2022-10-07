@@ -1,9 +1,4 @@
-.nav-menu {
-    margin-left: 83px;
-    @media screen and (min-width: 1200px) {
-        margin-left: 93px;
-        }
-}
+
 .nav-menu__list {
     display: flex;
     gap: 50px;
@@ -71,10 +66,10 @@
 .auth-nav__item{
     @media screen and (min-width: 768px) {
         display: block;
-        margin: 21px 0;
+        margin: 10px 0;
                 }
-
 }
+
 .auth-nav__link{
     display: flex;
     align-items: center;

@@ -77,6 +77,9 @@
         flex-basis: calc((100% - 30px) / 4);
         }
 }
+.team__item:last-child{
+    margin-bottom: 0;
+}
 
 .taem__icon{
     fill: currentColor;
